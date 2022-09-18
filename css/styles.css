@@ -13,7 +13,7 @@
 body {
   color: var(--top-color);
   font-family: "Roboto", sans-serif;
-  background: var(--bgd-color);
+  background-color: var(--bgd-color);
 }
 
 .visually-hidden {
@@ -41,12 +41,6 @@ body {
   color: var(--logo-color);
 }
 /* ___________heder_____________ */
-.logo-link:hover,
-.logo-text:hover,
-.logo-link:focus,
-.logo-text:focus {
-  color: var(--activ-logo-color);
-}
 
 .logo-link {
   font-family: "Raleway", sans-serif;
@@ -111,18 +105,16 @@ body {
 }
 
 .hero-btn {
-  font-family: "Roboto";
+  font-family: inherit;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
 
-  display: flex;
-  align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--bgd-color);
-  background: var(--accent-color);
+  background-color: var(--accent-color);
   cursor: pointer;
 }
 
@@ -189,11 +181,14 @@ body {
 .command {
   background-color: var(--second-bgd-color);
 }
+.command-item {
+  background-color: var(--bgd-color);
+}
 
 /* ______________project____________ */
 
 .project-btn {
-  font-family: "Roboto";
+  font-family: inherit;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -202,11 +197,12 @@ body {
   letter-spacing: 0.03em;
   color: var(--top-color);
   cursor: pointer;
-  background: var(--second-bgd-color);
+  background-color: var(--second-bgd-color);
 }
 .project-btn:hover,
 .project-btn:focus {
-  background: var(--accent-color);
+  color: var(--bgd-color);
+  background-color: var(--accent-color);
 }
 
 .project-subtitle {
@@ -217,7 +213,6 @@ body {
   color: var(--top-color);
 }
 .project-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
@@ -225,20 +220,13 @@ body {
 }
 
 .project-item {
-  background: var(--bgd-color);
+  background-color: var(--bgd-color);
 }
 
 /* ______________footer____________ */
 
 .footer {
   background-color: var(--dark-bgd-color);
-}
-
-.footer-logo:hover,
-.logo-footer-text:hover,
-.footer-logo:focus,
-.logo-footer-text:focus {
-  color: var(--activ-logo-color);
 }
 
 .footer-logo {
